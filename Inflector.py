@@ -3,11 +3,7 @@
 #modules
 import re
 
-"""
-/**
- * @class Inflector
- */
-"""
+
 class Inflector (object):
 	# the cache store for later use
 	_cacheStore = {}
