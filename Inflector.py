@@ -1,6 +1,5 @@
 #coding: utf8 
 
-#modules
 import re
 
 """
