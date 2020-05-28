@@ -613,6 +613,6 @@ class Inflector (object):
 		aftString = aftString.replace(replacement, ' ').strip()
 		aftString = ' '.join(aftString.split()).replace(' ', replacement)
 			
-		# add to cache
+		# add to cache - random
 		Inflector._cache('slug', string, aftString)
 		return Inflector._cache('slug', string)
